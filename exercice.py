@@ -22,7 +22,19 @@ for i in range(l):
 
 
 def prime_integer_summation() -> int:
-    return 0
+  S = 0 
+  for i in range(0, 101):
+    for j in range(2,i):
+      if i%j == 0
+        break
+    
+    if i == j :
+      S = S + i
+
+    
+  return S
+  print(S)
+      
 
 
 def factorial(number: int) -> int:
