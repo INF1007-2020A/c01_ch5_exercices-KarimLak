@@ -21,21 +21,18 @@ for i in range(l):
     return result
 
 
-s = 0
-i =1
-for Number in range (1,101):
+S = 0
+
+for Number in range(1, 101):
     count = 0
-    for i in range(2, (Number//2 + 1)):
-        if(Number % i == 0):
+    for i in range(2, (Number // 2 + 1)):
+        if (Number % i == 0):
             count = count + 1
             break
 
-    if (Number==i):
-        S = S + i
-
-    
-  return S
-  print(S)
+    if (count == 0 and Number != 1):
+        S=S+Number
+print(S)
       
 
 
