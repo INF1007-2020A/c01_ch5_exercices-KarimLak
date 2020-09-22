@@ -21,15 +21,17 @@ for i in range(l):
     return result
 
 
-def prime_integer_summation() -> int:
-  S = 0 
-  for i in range(0, 101):
-    for j in range(2,i):
-      if i%j == 0
-        break
-    
-    if i == j :
-      S = S + i
+s = 0
+i =1
+for Number in range (1,101):
+    count = 0
+    for i in range(2, (Number//2 + 1)):
+        if(Number % i == 0):
+            count = count + 1
+            break
+
+    if (Number==i):
+        S = S + i
 
     
   return S
