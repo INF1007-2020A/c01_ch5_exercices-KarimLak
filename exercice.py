@@ -37,10 +37,23 @@ print(S)
 
 
 def factorial(number: int) -> int:
+  number = input( 'Veuillez saisir un nombre n : ')
+number = int(number)
+
+Factoriel = 1
+for i in range(1,number+1):
+  Factoriel = i*Factoriel
+print(Factoriel)
+
     return 0
 
 
 def use_continue() -> None:
+  for i in range(1,11):
+
+  if i!=5:
+    pass
+    print(i)
     pass
 
 
